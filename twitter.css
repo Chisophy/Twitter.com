@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.motherdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.x {
+  width: 350px;
+  margin-top: 10px;
+  font-size: 200px;
+  margin-right: 150px;
+  margin-bottom: 40px;
+  
+}
+.seconddiv {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.h1 {
+  background-color: gba(0, 0, 0, 0);
+  border: 0 solid black;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  font-size: 80px;
+  color: black;
+  font
+}
+
+.h3 {
+  font-size: 40px;
+  margin-right: 230px;
+  margin-bottom: 20px;
+}
+
+ .btn3 {
+  border-radius: 15px;
+  padding: 5px;
+  height: 40px;
+  margin-bottom: 4px;
+  width: 300px;
+  margin-right: 120px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+} 
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10%;
+  margin-right: 150px;
+  
+}
+
+hr {
+width: 50px;
+}
+
+.btn1 {
+  border-radius: 15px;
+  padding: 10px;
+  width: 300px;
+  margin-right: 120px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(29, 155, 240);
+  border: none;
+  height: 40px;
+  font-size: 18px;
+}
+
+.btn3 > svg{
+  width: 20px;
+  margin-bottom: 6px;
+  
+  
+}
+
+.terms {
+  margin-right: 20px;
+  margin-top: 7px;
+}
+
+.quest {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 180px;
+  margin-top: 60px;
+}
+
+.btn2 {
+  border-radius: 15px;
+  padding: 10px;
+  width: 300px;
+  margin-right: 110px;
+  text-align: center;
+  color: rgb(29, 155, 240);
+  border: none;
+  height: 45px;
+  font-size: 15px;
+  border: solid rgb(207, 206, 206);
+  background-color: white;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: grey;
+  gap: 10px;
+  list-style: none;
+  margin-top: 30px;
+}
+
